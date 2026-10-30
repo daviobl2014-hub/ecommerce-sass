@@ -16,6 +16,43 @@ Projeto de front-end de um e-commerce de moda, inspirado na loja Reserva, desenv
 | Minha conta                 | `minha-conta.html`  |
 | Meus pedidos                | `meus-pedidos.html` |
 
+## Prints do projeto
+
+### Home
+
+![Página inicial](screenshots/index.png)
+
+<details>
+<summary>Versão mobile</summary>
+
+<img src="screenshots/index-mobile.png" alt="Página inicial no celular" width="300" />
+
+</details>
+
+### Loja
+
+![Loja com filtros e listagem de produtos](screenshots/loja.png)
+
+### Produto
+
+![Página de produto](screenshots/produtos.png)
+
+### Carrinho
+
+![Carrinho de compras](screenshots/carrinho.png)
+
+### Checkout
+
+![Checkout](screenshots/checkout.png)
+
+### Minha conta
+
+![Minha conta](screenshots/minha-conta.png)
+
+### Meus pedidos
+
+![Meus pedidos](screenshots/meus-pedidos.png)
+
 ## Tecnologias utilizadas
 
 - **HTML5**: estrutura semântica das páginas
@@ -47,6 +84,7 @@ Projeto de front-end de um e-commerce de moda, inspirado na loja Reserva, desenv
 │   └── main.scss       # arquivo principal
 ├── js/                 # scripts das páginas
 ├── img/                # ícones e imagens
+├── screenshots/        # prints usados neste README
 └── Base Back-end/      # templates base para integração com back-end (Django)
 ```
 
