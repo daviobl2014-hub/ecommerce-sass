@@ -1,0 +1,67 @@
+@use '../abstracts/auxiliares' as *;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+
+  @include respond(big) {
+    font-size: 56.75%;
+  }
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  font-size: 1.6rem;
+  line-height: 1.2;
+  color: $cor-preto;
+  background-color: $cor-branco;
+}
+
+img {
+  width: 100%;
+  max-width: 100%;
+  display: block;
+}
+
+.principal {
+  @include flex($direction: column, $gap: 2.5rem);
+
+  @include respond(medium) {
+    gap: 1.6rem;
+  }
+  &--padding-b {
+    padding-bottom: 7.63rem;
+    @include respond(small) {
+      padding-bottom: 3.12rem;
+    }
+  }
+
+  &--gap {
+    gap: 7.63rem;
+
+    @include respond(small) {
+      gap: 3.12rem;
+    }
+  }
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: $cor-cinza-texto;
+}
+
+/* A barra de rolagem */
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background: #bdbdbd;
+}
