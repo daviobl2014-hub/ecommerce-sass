@@ -2,7 +2,7 @@
 
 Projeto de front-end de um e-commerce de moda, inspirado na loja Reserva, desenvolvido com HTML, SASS e JavaScript puro.
 
-🔗 **Acesse o projeto:** `https://daviobl2014-hub.github.io/ecommerce-sass/>/`
+🔗 **Acesse o projeto:** [daviobl2014-hub.github.io/ecommerce-sass](https://daviobl2014-hub.github.io/ecommerce-sass/)
 
 ## Páginas
 
